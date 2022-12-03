@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\DevStudyNotes\\DevStudyNotes.csproj": {}
+    "C:\\dev\\net7\\DevStudyNotes\\DevStudyNotes.csproj": {}
   },
   "projects": {
-    "C:\\dev\\DevStudyNotes\\DevStudyNotes.csproj": {
+    "C:\\dev\\net7\\DevStudyNotes\\DevStudyNotes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\DevStudyNotes\\DevStudyNotes.csproj",
+        "projectUniqueName": "C:\\dev\\net7\\DevStudyNotes\\DevStudyNotes.csproj",
         "projectName": "DevStudyNotes",
-        "projectPath": "C:\\dev\\DevStudyNotes\\DevStudyNotes.csproj",
-        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\DevStudyNotes\\obj\\",
+        "projectPath": "C:\\dev\\net7\\DevStudyNotes\\DevStudyNotes.csproj",
+        "packagesPath": "C:\\Users\\fagmc\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\net7\\DevStudyNotes\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fagmc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +44,20 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
